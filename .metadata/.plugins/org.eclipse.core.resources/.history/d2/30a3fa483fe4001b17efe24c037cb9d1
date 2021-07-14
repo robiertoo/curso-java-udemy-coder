@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class TipoStringEquals {
+	public static void main(String[] args) {
+		
+		String s = new String("2");
+		System.out.println(s.equalsIgnoreCase("2"));
+	}
+}

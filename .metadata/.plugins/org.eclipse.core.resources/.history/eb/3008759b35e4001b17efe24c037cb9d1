@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class DesafioAritmeticos {
+	public static void main(String[] args) {
+		double primeiraParte = Math.pow((6 * (3 + 2)), 1);
+		double segundaParte = 3 * 2;
+		
+		System.out.println(primeiraParte + " " + segundaParte);
+	}
+}

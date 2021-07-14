@@ -1,0 +1,7 @@
+package fundamentos;
+
+public class DesafioAritmeticos {
+	public static void main(String[] args) {
+		float primeiraParte = Math.pow( 1, 2)
+	}
+}
