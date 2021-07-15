@@ -1,0 +1,20 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	/*
+	 * Media nota turma
+	 * varios alunos
+	 * digita nota valida -> total
+	 * sair -1
+	 */
+	
+	Scanner entrada = new Scanner(System.in);
+	
+	int contador = 0;
+	double total = 0.0;
+	
+
+	entrada.close();
+}

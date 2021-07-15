@@ -1,0 +1,23 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaSemana {
+	/*
+	 * domingo -> 1
+	 * quarta -> 4
+	 * sexta -> 6
+	 */
+	
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o número da semana:");
+		int numero = entrada.nextInt();
+		String mensagem;
+		
+		if(numero < 1 || numero > 7) mensagem = "Número inválido!";
+		
+		entrada.close();
+	}
+}
