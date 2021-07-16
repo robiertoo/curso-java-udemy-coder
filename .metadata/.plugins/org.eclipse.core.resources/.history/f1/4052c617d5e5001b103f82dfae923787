@@ -1,0 +1,10 @@
+package classe;
+
+/*
+ * nome
+ * peso
+ */
+
+public class Comida {
+
+}

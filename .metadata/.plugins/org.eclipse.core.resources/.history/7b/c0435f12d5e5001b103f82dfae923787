@@ -1,0 +1,12 @@
+package classe;
+
+/*
+ * String Nome
+ * double Peso
+ * 
+ *  void comer(Comida comida)
+ */
+
+public class Pessoa {
+
+}

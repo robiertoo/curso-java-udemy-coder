@@ -1,0 +1,6 @@
+package classe;
+
+public class ProdutoTeste {
+	Produto p1 = new Produto();
+	var p2 = new Produto();
+}

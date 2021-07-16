@@ -1,0 +1,16 @@
+package classe;
+
+/*
+ * feijao
+ * arroz
+ * 
+ * pessoa come comida
+ * 
+ * mostrar peso antes / depois comer
+ */
+
+public class Jantar {
+	public static void main(String[] args) {
+		
+	}
+}

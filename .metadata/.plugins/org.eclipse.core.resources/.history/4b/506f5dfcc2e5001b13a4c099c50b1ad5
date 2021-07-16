@@ -1,0 +1,18 @@
+package classe;
+
+public class Data {
+	int dia;
+	int mes;
+	int ano;
+	
+	String formatarPedaco(int pedaco) {
+		int tamanho = String.format("%d", pedaco).length();
+		if(tamanho > 3 || tamanho == 2) return String.format("%d", pedaco);
+		else return "0" + String.format("%d", pedaco);
+	}
+	
+	String obterDataFormatada() {
+		return String.format("%s/%s/%s", 
+				formatarPedaco(dia), formatarPedaco(mes), formatarPedaco(ano));
+	}
+}

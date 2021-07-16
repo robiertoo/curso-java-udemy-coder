@@ -1,0 +1,16 @@
+package classe;
+
+public class DataTeste {
+	public static void main(String[] args) {
+		Data d1 = new Data();
+		Data d2 = new Data();
+		
+		d1.dia = 31;
+		d1.mes = 8;
+		d1.ano = 1996;
+		
+		d2.dia = 21;
+		d2.mes = 8;
+		d2.ano = 1996;
+	}
+}

@@ -1,0 +1,12 @@
+package classe;
+
+public class DesafioPrimeiroTrauma {
+	
+	int a = 3; //nao pode mexer
+	
+	public static void main(String[] args) {
+//		pode mexer
+		System.out.println(DesafioPrimeiroTrauma.a);
+//		pode mexer
+	}
+}

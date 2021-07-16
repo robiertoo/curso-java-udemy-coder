@@ -1,0 +1,23 @@
+package classe;
+
+/*
+ * String Nome
+ * double Peso
+ * 
+ *  void comer(Comida comida) add this.peso
+ */
+
+public class Pessoa {
+	String nome;
+	double peso;
+	
+	Pessoa(String nome, double peso) {
+		this.nome = nome;
+		this.peso = peso;
+	}
+	
+	void comer(Comida comida) {
+		this.peso += comida.peso;
+		System.out.printf("%s ingeriu %.2f após comer %s.\n", this.nome, comida.peso, comida.nome);
+	}
+}
