@@ -1,0 +1,6 @@
+package colecoes;
+
+public class Usuario {
+	String nome;
+	
+}

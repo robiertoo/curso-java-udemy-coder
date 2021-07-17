@@ -1,0 +1,10 @@
+package colecoes;
+
+import java.util.LinkedList;
+import java.util.Stack;
+
+public class Pilha {
+	public static void main(String[] args) {
+		Stack<E> pilha = new LinkedList<>();
+	}
+}

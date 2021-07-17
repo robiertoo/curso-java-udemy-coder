@@ -1,0 +1,7 @@
+package colecoes;
+
+public class ConjuntoComportado {
+	public static void main(String[] args) {
+		Set list = new HashSet();
+	}
+}

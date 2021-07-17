@@ -1,0 +1,10 @@
+package colecoes;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
+public class Pilha {
+	public static void main(String[] args) {
+		Deque<E> pilha = new LinkedList<>();
+	}
+}
