@@ -1,0 +1,26 @@
+package oo.composicao.desafio;
+
+public class ClienteTeste {
+	public static void main(String[] args) {
+		Cliente cliente1 = new Cliente("Roberto");
+		
+		Compra compra1 = new Compra();
+		Compra compra2 = new Compra();
+		
+		Produto produto1 = new Produto("Joystick", 249.99);
+		Produto produto2 = new Produto("Teclado / Mouse s/ fio", 149.99);
+		
+		Item item1 = new Item(1, produto1);
+		Item item2 = new Item(2, produto2);
+		
+		compra1.adicionarItem(item1);
+		compra1.adicionarItem(item2);
+		compra2.adicionarItem(item2);
+		
+		System.out.println(compra1.obterValorTotal());
+		System.out.println(compra2.obterValorTotal());
+		
+		cliente1.adicionarCompra(compra1);
+		cliente1.adicionarCompra(compra2);
+	}
+}

@@ -1,0 +1,22 @@
+package oo.heranca.desafio;
+
+/*
+ * velocidade atual
+ * acelerar v =+ 5
+ * frear  !< 0 v-= 5
+ * 
+ */
+
+public class Carro {
+	int velocidadeAtual = 0;
+	
+	boolean acelerar() {
+		this.velocidadeAtual += 5;
+		return true;
+	}
+	
+	void frear() {
+		boolean menorQueZero = this.velocidadeAtual - 5 < 0;
+		if(!menorQueZero) this.velocidadeAtual -= 5;
+	}
+}

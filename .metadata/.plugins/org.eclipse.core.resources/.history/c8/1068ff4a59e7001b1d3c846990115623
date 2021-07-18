@@ -1,0 +1,7 @@
+package oo.encapsulamento.casaA;
+
+public class Paulo {
+	void testeAccessos() {
+		Ana esposa = new Ana();
+	}
+}

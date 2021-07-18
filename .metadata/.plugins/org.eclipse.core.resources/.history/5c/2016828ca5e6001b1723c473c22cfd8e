@@ -1,0 +1,9 @@
+package oo.composicao;
+
+public class Motor {
+	double fatorInjecao = 1;
+	
+	int giros() {
+		return (int) Math.round(roundfatorInjecao * 3000);
+	}
+}

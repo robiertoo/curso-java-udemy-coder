@@ -1,0 +1,16 @@
+package oo.composicao;
+
+public class Carro {
+	Motor motor = new Motor();
+	
+	void acelerar() {
+		if(motor.fatorInjecao < 3.0) {
+			motor.fatorInjecao += 0.4;			
+		} else motor.fatorInjecao = 3;
+	}
+	
+	void frear() {
+		motor.fatorInjecao -= 0.4;
+	}
+	
+}

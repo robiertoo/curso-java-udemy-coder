@@ -1,0 +1,36 @@
+package oo.heranca.desafio;
+
+/*
+ * velocidade atual
+ * acelerar v =+ 5
+ * frear  !< 0 v-= 5
+ * 
+ */
+
+public class Carro {
+	int velocidadeAtual = 0;
+	final int VELOCIDADE_MAXIMA;
+	
+	Carro (int velocidadeMaxima) {
+		this VELOCIDADE_MAXIMA = velocidadeMaxima;
+	}
+	
+	boolean acelerar() {
+		this.velocidadeAtual += 5;
+		return true;
+	}
+	
+	boolean frear() {
+		boolean menorQueZero = this.velocidadeAtual - 5 < 0;
+		if(!menorQueZero) {
+			this.velocidadeAtual -= 5;
+			return true;
+		}
+		this.velocidadeAtual = 0;
+		return false;
+	}
+	
+	void obterVelocidadeAtual() {
+		System.out.println("Velocidade atual: " + this.velocidadeAtual);
+	}
+}

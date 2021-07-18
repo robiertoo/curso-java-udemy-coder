@@ -1,0 +1,6 @@
+package oo.composicao;
+
+public class Curso {
+	String nome;
+	List<Aluno> alunos = new ArrayList<>();
+}

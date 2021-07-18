@@ -1,0 +1,13 @@
+package oo.encapsulamento;
+
+public class Pessoa {
+	private int idade;
+	
+	int lerIdade() {
+		return this.idade;
+	}
+	
+	
+	
+	
+}

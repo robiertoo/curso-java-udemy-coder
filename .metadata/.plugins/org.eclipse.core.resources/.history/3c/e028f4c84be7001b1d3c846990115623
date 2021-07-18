@@ -1,0 +1,12 @@
+package oo.heranca.desafio;
+
+/*
+ * velocidade atual
+ * acelerar v =+ 5
+ * frear  !< 0 v-= 5
+ * 
+ */
+
+public class Carro {
+
+}
