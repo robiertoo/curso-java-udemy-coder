@@ -1,0 +1,9 @@
+package lambdas;
+
+import java.util.function.UnaryOperator;
+
+public class OperadorUnario {
+	public static void main(String[] args) {
+		UnaryOperator<Integer> maisDois = n -> return n + 2;
+	}
+}
