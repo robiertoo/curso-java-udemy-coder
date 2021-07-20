@@ -1,0 +1,38 @@
+package streams;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+/*
+ * 1. Número para string binaria 6 => "110";
+ * 2. Reverter a string "110" => "011"
+ * 3. Converter de volta para inteiro "011" => 3
+ */
+
+public class DesafioMap {
+	public static void main(String[] args) {
+		List<Integer> nums = Arrays.asList(1,2,3,4,5,6,7,8,9);
+		Consumer<Object> println = System.out::println;
+		
+		Function<Integer, String> numeroParaStringBinaria = inteiro -> Integer.toBinaryString(inteiro);
+		UnaryOperator<String> reverterString = string -> {
+			char[] charArray = string.toCharArray();
+			int charLength = charArray.length;
+			char[] charAux = new Array(3);
+			for (int i = 0; i < charLength; i++) {
+				for (int j = 0; j < charLength; j--) {
+					
+				}
+			}
+		};
+		
+		nums.stream()
+		.map(numeroParaStringBinaria)
+		.map(reverterString)
+		.forEach(println);
+	}
+}

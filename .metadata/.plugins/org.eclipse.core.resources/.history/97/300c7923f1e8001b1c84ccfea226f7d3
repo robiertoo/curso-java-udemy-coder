@@ -1,0 +1,26 @@
+package streams;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
+
+public class Filter {
+	public static void main(String[] args) {
+		Aluno a1 = new Aluno("Ana", 7.8);
+		Aluno a2 = new Aluno("Bia", 5.8);
+		Aluno a3 = new Aluno("Daniel", 9.8);
+		Aluno a4 = new Aluno("Gui", 6.8);
+		Aluno a5 = new Aluno("Reneca", 7.1);
+		Aluno a6 = new Aluno("Pedro", 8.8);
+		
+		List<Aluno> alunos = Arrays.asList(a1, a2, a4, a5, a6);
+//		UnaryOperator<Aluno> filtrarAprovados = aluno -> aluno.nota >= 7;
+		Predicate<Aluno> aprovados = aluno -> aluno.nota >= 7;
+		
+		alunos.stream()
+			.filter(aprovados)
+			.map(aluno -> String.format("Alunx %s está aprovado!", aluno.nome))
+			.forEach(System.out::println);
+	}
+}
