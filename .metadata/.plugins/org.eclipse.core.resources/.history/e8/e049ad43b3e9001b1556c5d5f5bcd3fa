@@ -1,0 +1,24 @@
+package excecao;
+
+public class Basico {
+	public static void main(String[] args) {
+		
+		Aluno a1 = null;
+		
+		try {
+			
+		} catch(Exception excecao) {
+			System.out.println("ocorreu um erro no momento de imprimir o nome do aluno");;
+		}
+		
+		ImprimirNomeDoAluno(a1);
+		
+		System.out.println(7 / 0);
+		
+		System.out.println("Fim.");
+	}
+	
+	public static void ImprimirNomeDoAluno(Aluno aluno) {
+		System.out.println(aluno.nome);
+	}
+}

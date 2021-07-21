@@ -1,0 +1,5 @@
+package excecao.personalizada;
+
+public class NumeroNegativoException extends RuntimExcetion{
+	
+}

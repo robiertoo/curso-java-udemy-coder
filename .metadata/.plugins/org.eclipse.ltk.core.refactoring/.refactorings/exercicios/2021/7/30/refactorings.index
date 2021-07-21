@@ -4,3 +4,10 @@
 1626649698728	Rename type 'Prodicado'
 1626651247945	Rename type 'PreciadoComposicao'
 1626740274195	Rename type 'Alunio'
+1626824032439	Copy compilation unit
+1626825564853	Copy compilation unit
+1626825633088	Rename package 'excecao.personalizada'
+1626825722458	Rename type 'NumeroNegativoException'
+1626825912064	Rename type 'NumeroForaIntervalo'
+1626826267117	Copy package
+1626826811490	Rename type 'Casa'
