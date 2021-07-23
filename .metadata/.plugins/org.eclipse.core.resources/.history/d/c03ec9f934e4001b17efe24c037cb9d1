@@ -1,7 +1,0 @@
-package fundamentos;
-
-public class DesafioAritmeticos {
-	public static void main(String[] args) {
-		float primeiraParte = Math.pow( (double) (6 * (3 + 2)), 2)
-	}
-}
