@@ -1,5 +1,0 @@
-package excecao.personalizada;
-
-public class NumeroNegativoException {
-
-}

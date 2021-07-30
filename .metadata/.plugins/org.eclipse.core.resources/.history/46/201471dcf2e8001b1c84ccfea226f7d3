@@ -1,7 +1,0 @@
-package streams;
-
-public class Funcionario {
-	private final String nome;
-	private final int anosDeEmpresa;
-	private final boolean satisfeito;
-}

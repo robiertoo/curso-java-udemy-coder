@@ -1,7 +1,0 @@
-package lambdas;
-
-public class PreciadoComposicao {
-	public static void main(String[] args) {
-		
-	}
-}

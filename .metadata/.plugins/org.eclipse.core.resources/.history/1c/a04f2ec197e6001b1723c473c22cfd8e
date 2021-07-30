@@ -1,9 +1,0 @@
-package classe;
-
-public class EqualsHashCode {
-	public static void main(String[] args) {
-		Usuario u1 = new Usuario();
-		u1.nome = "Pedro Silva";
-		u1.email = "pedro.silva@gmail.com";
-	}
-}

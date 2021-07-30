@@ -1,6 +1,0 @@
-package oo.composicao.desafio;
-
-public class Compra {
-	List<Item> itens = new ArrayList<>();
-	
-}

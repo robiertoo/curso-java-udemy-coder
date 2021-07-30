@@ -1,7 +1,0 @@
-package lambdas;
-
-import java.util.Arrays;
-
-public class Foreach {
-	List<String> aprovados = Arrays.asList("Ana", "Bia", "Lia", "Gui");
-}

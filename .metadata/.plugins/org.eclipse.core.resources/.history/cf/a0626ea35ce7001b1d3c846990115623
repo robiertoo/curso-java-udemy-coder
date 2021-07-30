@@ -1,9 +1,0 @@
-package oo.encapsulamento;
-
-public class Pessoa {
-	private int idade;
-	
-	public void obterIdade() {
-		return this.idade;
-	}
-}
