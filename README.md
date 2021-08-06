@@ -1,7 +1,7 @@
 # Olar!
 Demorei um pouco pra este readme, mas cá estou!
 
-Estou fazendo um curso legal de Java da [Cod3r](https://www.cod3r.com.br) pela [Udemy](https://www.udemy.com) e resolvi documentar meu progresso, commitando e fazendo um push pra cá toda vez que finalizo um módulo ou um projeto.
+Estou fazendo um curso legal de Java da [Cod3r](https://www.cod3r.com.br) pela [Udemy](https://www.udemy.com) e resolvi documentar meu progresso, commitando e fazendo um push pra cá toda vez que finalizo um ~~módulo ou um projeto~~ dia de aula.
 
 ## Os módulos são: 
 1. ~~Introdução~~
