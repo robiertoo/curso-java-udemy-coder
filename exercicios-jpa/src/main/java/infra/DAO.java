@@ -12,21 +12,26 @@ public class DAO<E> {
 	private EntityManager em;
 	private Class<E> classe;
 	
-	static {
-		try {
-			 emf = Persistence.createEntityManagerFactory("exercicios-jpa");
-		} catch (Exception e) {
-			// logar -> log4j
-		}
-	}
+//	static {
+//		try {
+//			 emf = Persistence.createEntityManagerFactory("exercicios-jpa");
+//		} catch (Exception e) {
+//			// logar -> log4j
+//		}
+//	}
 	
 	public DAO() {
 		this(null);
 	}
 	
 	public DAO(Class<E> classe) {
+		emf = Persistence.createEntityManagerFactory("exercicios-jpa");
 		em = emf.createEntityManager();
 		this.classe = classe;
+	}
+	
+	public E obterPorID(Object id) {
+		return em.find(classe, id);
 	}
 	
 	public DAO<E> abrirTransacao() {
@@ -35,7 +40,7 @@ public class DAO<E> {
 	}
 	
 	public DAO<E> incluir(E entidade) {
-		em.persist(classe);
+		em.persist(entidade);
 		return this;
 	}
 	
@@ -53,7 +58,7 @@ public class DAO<E> {
 	}
 	
 	public List<E> obterTodos(int qtde, int deslocamento) {
-		if( classe == null) throw new UnsupportedOperationException("Classe nula");
+		if(classe == null) throw new UnsupportedOperationException("Classe nula");
 		
 		String jpql = "select e from " + classe.getName() + " e";
 		TypedQuery<E> query = em.createQuery(jpql, classe);
