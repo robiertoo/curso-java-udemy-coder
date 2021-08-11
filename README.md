@@ -19,7 +19,7 @@ Estou fazendo um curso legal de Java da [Cod3r](https://www.cod3r.com.br) pela [
 13. ~~Java Desktop com Swing~~
 14. ~~Banco de Dados Relacional~~
 15. ~~Banco de Dados com JDBC~~
-16. Java Persistence API (JPA)
+16. ~~Java Persistence API (JPA)~~
 17. Modularidade em Java
 18. JavaFX
 19. Conceitos sobre Web
