@@ -104,7 +104,7 @@
 		</section>
 	</section>
 	<section name="SourceActionDialog.constructors">
-		<item key="VisibilityModifier" value="2"/>
+		<item key="VisibilityModifier" value="1"/>
 		<item key="FinalModifier" value="false"/>
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>

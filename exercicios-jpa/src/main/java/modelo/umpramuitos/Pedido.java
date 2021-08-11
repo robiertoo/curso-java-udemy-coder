@@ -1,12 +1,15 @@
 package modelo.umpramuitos;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Pedido {
@@ -25,6 +28,9 @@ public class Pedido {
 		super();
 		this.data = data;
 	}
+	
+	@OneToMany(mappedBy = "pedido", fetch = FetchType.LAZY) //default
+	private List<ItemPedido> itens;
 
 	public Long getId() {
 		return id;
@@ -40,5 +46,13 @@ public class Pedido {
 
 	public void setData(Date data) {
 		this.data = data;
+	}
+
+	public List<ItemPedido> getItens() {
+		return itens;
+	}
+
+	public void setItens(List<ItemPedido> itens) {
+		this.itens = itens;
 	}
 }
