@@ -1,0 +1,20 @@
+.conteudo {
+	-fx-background: "323232";
+	-fx-font-family: "Oswald";
+	-fx-font-size: 50px;
+}
+
+.botoes {
+	-fx-font-size: 30px;
+	-fx-min-width: 75px;
+	-fx-min-height: 75px;
+	-fx-background-radius: 50px;
+}
+
+.verde {
+	-fx-text-fill: green;
+}
+
+.vermelho{
+	-fx-text-fill: tomato;
+}
