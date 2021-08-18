@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
 
 <GridPane xmlns:fx="http://javafx.com/fxml/1"
 	fx:controller="fxml.LoginControlador"
+	styleClass="login"
+	hgap="15" vgap="15"
 >
+	
+	<padding>
+		<Insets left="40" right="40" top="40" bottom="40" />
+	</padding>
+	
+	<columnConstraints>
+		<ColumnConstraints minWidth="60" prefWidth="60" halignment="right" />		
+		<ColumnConstraints prefWidth="200" maxWidth="Infinity" hgrow="ALWAYS" />		
+	</columnConstraints>
+
 	<Label text="Seja Bem Vindo!"
 		GridPane.columnIndex="0"
 		GridPane.rowIndex="0"
+		GridPane.columnSpan="2"
+		GridPane.halignment="CENTER"
+		styleClass="login-titulo"
 	>
+		<GridPane.margin>
+			<Insets top="20" bottom="20" />	
+		</GridPane.margin>
 	</Label>
 	<Label text="E-mail:"
 		GridPane.columnIndex="0"
 		GridPane.rowIndex="1"
+		styleClass="login-form-label"
 	>
 	</Label>
 	<TextField
@@ -26,6 +46,7 @@
 	<Label text="Senha:"
 		GridPane.columnIndex="0"
 		GridPane.rowIndex="2"
+		styleClass="login-form-label"
 	>
 	</Label>
 	<PasswordField
@@ -39,7 +60,13 @@
 		onAction="#entrar"
 		GridPane.columnIndex="0"
 		GridPane.rowIndex="3"
+		styleClass='login-form-botao'
+		GridPane.columnSpan="2"
+		GridPane.halignment="CENTER"
 	>
+		<GridPane.margin>
+			<Insets top="20" bottom="20" />	
+		</GridPane.margin>
 	</Button>
 </GridPane>
 
