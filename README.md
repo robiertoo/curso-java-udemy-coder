@@ -23,5 +23,5 @@ Estou fazendo um curso legal de Java da [Cod3r](https://www.cod3r.com.br) pela [
 17. ~~Modularidade em Java~~
 18. ~~JavaFX~~ 
 19. ~~Conceitos sobre Web~~
-20. Spring Boot
+20. ~~Spring Boot~~
 21. Banco de Dados Não Relacional (NoSQL)
